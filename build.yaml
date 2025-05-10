@@ -19,8 +19,6 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: tweakbit_r rgbled_adapter
-  - board: seeeduino_xiao_ble
-    shield: tweakbit_l rgbled_adapter
+    shield: numberpadtest
   - board: seeeduino_xiao_ble
     shield: settings_reset

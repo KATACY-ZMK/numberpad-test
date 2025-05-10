@@ -2,10 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: sayu-hub
-      url-base: https://github.com/sayu-hub
-    - name: badjeff    # <-- PMW3610
-      url-base: https://github.com/badjeff
+    - name: KATATHY-ZMK
+      url-base: https://github.com/KATACY-ZMK
     - name: caksoylar  # <-- RGB LED
       url-base: https://github.com/caksoylar  
   projects:
@@ -13,9 +11,6 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-pmw3610-driver
-      remote: badjeff
-      revision: main
     - name: zmk-rgbled-widget
       remote: caksoylar
       revision: main
