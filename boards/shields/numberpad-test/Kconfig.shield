@@ -1,5 +1,3 @@
-config SHIELD_TWEAKBIT_R
-    def_bool $(shields_list_contains,tweakbit_r)
+config SHIELD_NUMBERPADTEST
+    def_bool $(shields_list_contains,numberpadtest)
 
-config SHIELD_TWEAKBIT_L
-    def_bool $(shields_list_contains,tweakbit_l)

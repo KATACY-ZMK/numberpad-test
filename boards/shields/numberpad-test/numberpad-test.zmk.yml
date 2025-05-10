@@ -1,8 +1,8 @@
 file_format: "1"
-id: tweakbit
-name: tweakbit
+id: numberpadtest
+name: numberpadtest
 type: shield
-url: https://github.com/sayu-hub/zmk-config-tweakbit
+url: https://github.com/KATACY-ZMK/numberpad-test
 requires: [seeeduino_xiao_ble]
 features:
   - keys
