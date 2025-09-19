@@ -1,18 +1,14 @@
-#include <numberpadtest.dtsi>
+#include "numberpadtest.dtsi"
 
-kscan0: kscan_0 {
-    compatible = "zmk,kscan-gpio-charlieplex";
-    interrupt-gpios = <&xiao_d 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-    gpios = <&xiao_d 10 (GPIO_ACTIVE_HIGH)>,
-            <&xiao_d 9 (GPIO_ACTIVE_HIGH)>,
-            <&xiao_d 8 (GPIO_ACTIVE_HIGH)>,
-            <&xiao_d 7 (GPIO_ACTIVE_HIGH)>,
-            <&xiao_d 6 (GPIO_ACTIVE_HIGH)>;
+&kscan0 {
+    gpios
+        = <&xiao_d 10 (GPIO_ACTIVE_HIGH)>
+        , <&xiao_d 9 (GPIO_ACTIVE_HIGH)>
+        , <&xiao_d 8 (GPIO_ACTIVE_HIGH)>
+        , <&xiao_d 7 (GPIO_ACTIVE_HIGH)>
+        , <&xiao_d 6 (GPIO_ACTIVE_HIGH)>
+        ;
 };
-
-
-
-
 
 
 
