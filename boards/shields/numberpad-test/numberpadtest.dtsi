@@ -3,10 +3,6 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
-  chosen {
-    zmk,physical-layout = &numberpadtest_physical_layout;
-  };
-
 numberpadtest_physical_layout: numberpadtest_physical_layout {
       compatible = "zmk,physical-layout";
       display-name = "Default";
@@ -64,9 +60,5 @@ numberpadtest_physical_layout: numberpadtest_physical_layout {
         >;
     };
 
-    kscan0: kscan_0 {
-        compatible = "zmk,kscan-gpio-charlieplex";
- 
-        interrupt-gpios = <&xiao_d 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-    };
+    
 };
