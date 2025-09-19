@@ -10,9 +10,9 @@
         // Charlieplex用 5ピン定義 (IO0–IO4)
         gpios = <&xiao_d 10 GPIO_ACTIVE_HIGH>,  // IO0
                 <&xiao_d 9 GPIO_ACTIVE_HIGH>,  // IO1
-                <&xiao_d 8  GPIO_ACTIVE_HIGH>,  // IO2
-                <&xiao_d 7  GPIO_ACTIVE_HIGH>,  // IO3
-                <&xiao_d 6  GPIO_ACTIVE_HIGH>;  // IO4
+                <&xiao_d 8 GPIO_ACTIVE_HIGH>,  // IO2
+                <&xiao_d 7 GPIO_ACTIVE_HIGH>,  // IO3
+                <&xiao_d 6 GPIO_ACTIVE_HIGH>;  // IO4
     };
 };
 
