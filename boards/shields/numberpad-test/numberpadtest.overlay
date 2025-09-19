@@ -2,13 +2,14 @@
 
 &kscan0 {
     gpios
-        // Charlieplex用 5ピン定義 (IO0–IO4)
-        gpios = <&xiao_d 10 GPIO_ACTIVE_LOW>,  // IO0
-                <&xiao_d 9 GPIO_ACTIVE_LOW>,  // IO1
-                <&xiao_d 8 GPIO_ACTIVE_LOW>,  // IO2
-                <&xiao_d 7 GPIO_ACTIVE_LOW>,  // IO3
-                <&xiao_d 6 GPIO_ACTIVE_LOW>;  // IO4
-    };
+        = <&xiao_d 10 (GPIO_ACTIVE_LOW)>
+        , <&xiao_d 9 (GPIO_ACTIVE_LOW)>
+        , <&xiao_d 8 (GPIO_ACTIVE_LOW)>
+        , <&xiao_d 7 (GPIO_ACTIVE_LOW)>
+        , <&xiao_d 6 (GPIO_ACTIVE_LOW)>
+        , <&xiao_d 5 (GPIO_ACTIVE_LOW)>
+        ;
+};
 
 
 
