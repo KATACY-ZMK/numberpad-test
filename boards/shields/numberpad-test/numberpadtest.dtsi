@@ -1,4 +1,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
+#include <physical_layouts.dtsi>
+#include <dt-bindings/zmk/bt.h>
 
 / {
     chosen {
@@ -19,6 +21,12 @@
             RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,5)
             RC(5,0) RC(5,1) RC(5,2) RC(5,3) RC(5,4)
         >;
+    };
+
+    kscan0: kscan_0 {
+        compatible = "zmk,kscan-gpio-charlieplex";
+ 
+        interrupt-gpios = <&xiao_d 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
     };
 };
 
