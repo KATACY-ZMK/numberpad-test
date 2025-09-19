@@ -1,4 +1,4 @@
-#include "numberpadtest.dtsi"
+#include <numberpadtest.dtsi>
 
 kscan0: kscan_0 {
     compatible = "zmk,kscan-gpio-charlieplex";
