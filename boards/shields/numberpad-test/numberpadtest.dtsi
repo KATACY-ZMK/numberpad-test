@@ -67,6 +67,6 @@ numberpadtest_physical_layout: numberpadtest_physical_layout {
     kscan0: kscan_0 {
         compatible = "zmk,kscan-gpio-charlieplex";
  
-        interrupt-gpios = <&xiao_d 2 (GPIO_ACTIVE_LOW)>;
+        interrupt-gpios = <&xiao_d 2 (GPIO_ACTIVE_LOW | GPIO_PULL_DOWN)>;
     };
 };
