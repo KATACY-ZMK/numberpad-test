@@ -7,7 +7,7 @@
     zmk,physical-layout = &numberpadtest_physical_layout;
   };
 
-title72_physical_layout: numberpadtest_physical_layout {
+numberpadtest_physical_layout: numberpadtest_physical_layout {
       compatible = "zmk,physical-layout";
       display-name = "Default";
       transform = <&default_transform>;
