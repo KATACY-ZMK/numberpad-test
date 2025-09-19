@@ -3,6 +3,10 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
+  chosen {
+    zmk,physical-layout = &title72_physical_layout;
+  };
+
 numberpadtest_physical_layout: numberpadtest_physical_layout {
       compatible = "zmk,physical-layout";
       display-name = "Default";
@@ -47,7 +51,7 @@ numberpadtest_physical_layout: numberpadtest_physical_layout {
 
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
-        columns = <7>;
+        columns = <6>;
         rows = <6>;
 
         map = <
