@@ -5,7 +5,7 @@
 / {
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-charlieplex";
-        interrupt-gpios = <&gpio0 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>; // IO2 = INTピン
+        interrupt-gpios = <&xiao_d 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>; // IO2 = INTピン
 
         // Charlieplex用 5ピン定義 (IO0–IO4)
         gpios = <&xiao_d 10 GPIO_ACTIVE_HIGH>,  // IO0
